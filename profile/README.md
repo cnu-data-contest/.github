@@ -21,7 +21,7 @@
 |   <img width="160px" src="https://avatars.githubusercontent.com/u/33623123?v=4" />    |                      <img width="160px" src="https://github.com/cnu-data-contest/.github/assets/33623123/d002486e-dd84-4fe1-8509-1260409f46b2" />    |                   <img width="160px" src="https://avatars.githubusercontent.com/u/81898507?v=4"/>   |                   <img width="160px" src="https://avatars.githubusercontent.com/u/56399681?v=4"/>   |
 |   [@llbllhllk](https://github.com/llbllhllk)   |    [@hwibaluuu](https://github.com/hwibaluuu)  | [@pkyung](https://github.com/pkyung)  | [@daemin-kim](https://github.com/daemin-kim)  |
 | 충남대학교 컴퓨터공학과 4학년 | 충남대학교 디자인창의학과 4학년 | 충남대학교 컴퓨터융합학부 3학년 | 충남대학교 컴퓨터융합학부 3학년 |
-
+| FE (팀장) | UI/UX (팀원) | BE (팀원) | BE (팀원) |
 
 ## 서비스 소개
 충남대학교의 모든 학과의 교내활동을 한 곳에 집약해놓은 플랫폼이다.
