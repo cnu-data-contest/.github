@@ -60,7 +60,7 @@
 | :-------------------------------------------: |
 |  <img width="1000" src="https://github.com/cnu-data-contest/.github/assets/33623123/870283d2-1440-4c27-93bf-3a1aae56b0b2"/> |
 |  관심학과 선택 페이지   |
-|    <img width="1000" src="https://github.com/llbllhllk/diary/assets/33623123/a9fedd5c-c235-4222-bd2b-dea027e4d5dd"/>|
+|    <img width="1000" src="https://github.com/cnu-data-contest/.github/assets/33623123/7a834abd-02e4-41f5-b0ed-38a022c3a791"/>|
 |  메인 페이지   |
 | <img width="1000" src="https://github.com/cnu-data-contest/.github/assets/33623123/97a5961d-fd15-4a81-a984-20bef665f083"/>   |
 |  수정하기 팝업   |
