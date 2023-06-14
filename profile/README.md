@@ -94,63 +94,144 @@
 ## 아키텍쳐
 ### 디렉토리 구조
 ```bash
-├── README.md
-├── package-lock.json
-├── package.json
-├── strapi-backend : 
-│   ├── README.md
-│   ├── api : db model, api 관련 정보 폴더
-│   │   ├── about
-│   │   ├── course
-│   │   └── lecture
-│   ├── config : 서버, 데이터베이스 관련 정보 폴더
-│   │   ├── database.js
-│   │   ├── env : 배포 환경(NODE_ENV = production) 일 때 설정 정보 폴더
-│   │   ├── functions : 프로젝트에서 실행되는 함수 관련 정보 폴더
-│   │   └── server.js
-│   ├── extensions
-│   │   └── users-permissions : 권한 정보
-│   ├── favicon.ico
-│   ├── package-lock.json
-│   ├── package.json
-│   └── public
-│       ├── robots.txt
-│       └── uploads : 강의 별 사진
-└── voluntain-app : 프론트엔드
-    ├── README.md
-    ├── components
-    │   ├── CourseCard.js
-    │   ├── Footer.js
-    │   ├── LectureCards.js
-    │   ├── MainBanner.js : 메인 페이지에 있는 남색 배너 컴포넌트, 커뮤니티 이름과 슬로건을 포함.
-    │   ├── MainCard.js
-    │   ├── MainCookieCard.js
-    │   ├── NavigationBar.js : 네비게이션 바 컴포넌트, _app.js에서 공통으로 전체 페이지에 포함됨.
-    │   ├── RecentLecture.js
-    │   └── useWindowSize.js
-    ├── config
-    │   └── next.config.js
-    ├── lib
-    │   ├── context.js
-    │   └── ga
-    ├── next.config.js
-    ├── package-lock.json
-    ├── package.json
-    ├── pages
-    │   ├── _app.js
-    │   ├── _document.js
-    │   ├── about.js
-    │   ├── course
-    │   ├── index.js
-    │   ├── lecture
-    │   ├── newcourse
-    │   ├── question.js
-    │   └── setting.js
+├── backend : 백엔드
+│   ├── README.md
+│   ├── Controller : controller 파일
+│   │   ├── ApiController
+│   │   ├── FavoriteController
+│   │   └── UserController
+│   ├── Domain: 도메인 파일
+│   │   ├── BoardInfo
+│   │   ├── Favorite
+│   │   ├── MajorBaseUrl
+│   │   ├── MoreValue
+│   │   ├── User
+│   │   ├── UserMajorValue
+│   │   ├── UserValue
+│   │   ├── ValueIn
+│   │   └── ValueOut
+│   ├── Dto : dto 관련 파일
+│   │   ├── UserRequestDto
+│   │   └── FavoriteRequestDto
+│   ├── Repository : repository 관련 파일
+│   │   ├── FavoriteRepository
+│   │   └── UserJpaRepository
+│   ├── Service : service 관련 파일
+│   │   ├── ApiService
+│   │   ├── FavoriteService
+│   │   └── UserService
+│   ├── ContestArchiveApplication
+│   ├── resources
+│   │   ├── application.properties
+│   │   └── application.yml
+└── frontend : 프론트엔드
     ├── public
-    │   ├── favicon.ico
-    │   └── logo_about.png
-    └── styles
-        └── Home.module.css
+    │   ├── favicon.ico
+    │   ├── index.html
+    │   ├── manifest.json
+    │   └── robots.txt
+    ├── api
+    │   └── index.js
+    ├── assets/images : 이미지 파일
+    ├── components
+    │   ├── common
+    │   │   ├── banner
+    │   │   │   ├── Banner.js
+    │   │   │   ├── Banner.style.js
+    │   │   │   └── index.js
+    │   │   ├── base-layout
+    │   │   │   ├── BaseLayout.js
+    │   │   │   └── index.js
+    │   │   ├── container
+    │   │   │   ├── Container.js
+    │   │   │   ├── Container.style..js
+    │   │   │   └── index.js
+    │   │   ├── header
+    │   │   │   ├── Header.js
+    │   │   │   ├── Header.style.js
+    │   │   │   └── index.js
+    │   │   └── UI
+    │   │   │   ├── button
+    │   │   │   │   ├── Button.js
+    │   │   │   │   ├── Button.style.js
+    │   │   │   │   └── index.js
+    │   │   │   ├── drop-down
+    │   │   │   │   ├── DropDown.js
+    │   │   │   │   ├── DropDown.style.js
+    │   │   │   │   └── index.js
+    │   │   │   └── input
+    │   │   │   │   ├── index.js
+    │   │   │   │   ├── Input.js
+    │   │   │   │   └── Input.style.js
+    │   ├── favorite
+    │   │   ├── Favorite.js
+    │   │   ├── Favorite.style.js
+    │   │   └── index.js
+    │   ├── first-user-login
+    │   │   ├── FirstUserLogin.js
+    │   │   ├── FirstUserLogin.style.js
+    │   │   └── index.js
+    │   ├── pagination
+    │   │   ├── index.js
+    │   │   ├── Pagination.js
+    │   │   └── Pagination.style.js
+    │   ├── post-content
+    │   │   ├── index.js
+    │   │   ├── PostContent.js
+    │   │   └── PostContent.style.js
+    │   ├── posts
+    │   │   ├── index.js
+    │   │   ├── Posts.js
+    │   │   └── Posts.style.js
+    │   ├── search-data
+    │   │   ├── index.js
+    │   │   ├── SearchData.js
+    │   │   └── SearchData.style.js
+    │   ├── slick-list
+    │   │   ├── index.js
+    │   │   ├── SlickList.js
+    │   │   ├── SlickList.style.js
+    │   │   ├── SlickListItem.js
+    │   │   └── SlickListItem.style.js
+    │   ├── user-info
+    │   │   ├── index.js
+    │   │   ├── UserInfo.js
+    │   │   └── UserInfo.style.js
+    │   ├── user-login
+    │   │   ├── ErrorMessagePopUp.js
+    │   │   ├── ErrorMessagePopup.style.js
+    │   │   ├── index.js
+    │   │   ├── UserLogin.js
+    │   │   └── UserLogin.style.js
+    │   └── watch-list
+    │   │   ├── index.js
+    │   │   ├── WatchList.js
+    │   │   ├── WatchList.style.js
+    │   │   └── WatchListItem.js
+    ├── config
+    │   ├── config.js
+    │   └── index.js
+    ├── data
+    │   ├── computer.js
+    │   ├── index.js
+    │   └── koreanLanguage.js
+    ├── pages
+    │   ├── BoardList.js
+    │   ├── FirstLogin.js
+    │   ├── Login.js
+    │   ├── Main.js
+    │   ├── Main.style.js
+    │   ├── Post.js
+    ├── styles
+    │   ├── GlobalStyle.jsx
+    │   ├── GlobalThemeProvider.jsx
+    │   ├── slick-theme.css
+    │   ├── slick.css
+    │   ├── theme.jsx
+    ├── App.jsx
+    ├── index.js
+    ├── package-lock.json
+    └── package.json
 
 ```
 ### 아키텍처 상세
