@@ -221,13 +221,13 @@
     │   ├── Login.js
     │   ├── Main.js
     │   ├── Main.style.js
-    │   ├── Post.js
+    │   └── Post.js
     ├── styles
     │   ├── GlobalStyle.jsx
     │   ├── GlobalThemeProvider.jsx
     │   ├── slick-theme.css
     │   ├── slick.css
-    │   ├── theme.jsx
+    │   └── theme.jsx
     ├── App.jsx
     ├── index.js
     ├── package-lock.json
