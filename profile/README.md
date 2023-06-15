@@ -6,8 +6,9 @@
 
 
 # CNU Archive Web Page v1.0
-> **충남대학교 공공데이터 활용경진대회** <br/> **개발기간: 2023.04 ~ 2023.06**
-
+> **충남대학교 공공데이터 활용경진대회** <br/> **개발기간: 2023.04 ~ 2023.06** <br/>
+> [공모전 영상](https://youtu.be/0GT9EBZFFqo)<br/>
+> [Notion](https://fish-dash-6d4.notion.site/3a34e19c82a440f3b76c7da95a3b0d40?pvs=4)
 
 ## 배포 주소
 > **프론트 서버** : https://master--frolicking-fairy-f01bac.netlify.app/<br>
