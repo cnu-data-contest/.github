@@ -235,5 +235,5 @@
 
 ```
 ### 아키텍처 상세
-![소프트웨어아키텍처](https://user-images.githubusercontent.com/33623123/181793237-1ce39f8e-ce78-47f0-8f7d-1e93953c379c.jpg)
+![소프트웨어아키텍처](https://github.com/cnu-data-contest/.github/assets/81898507/c622b208-9fc7-48dd-a949-530c3f5a2c14)
 
