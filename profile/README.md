@@ -91,6 +91,8 @@
 |  게시물 리스트   |  상세 게시물   |
 | <img width="500" src="https://github.com/cnu-data-contest/.github/assets/33623123/61632778-be2e-4260-8d21-65e0b1f49cc5"/>   |  <img width="500" src="https://github.com/cnu-data-contest/.github/assets/33623123/8962d399-5cea-4246-92e3-2efab6c52de9"/>   |
 
+<hr />
+
 ## 아키텍쳐
 ### 아키텍처 상세
 ![소프트웨어아키텍처](https://github.com/cnu-data-contest/.github/assets/81898507/c622b208-9fc7-48dd-a949-530c3f5a2c14)
