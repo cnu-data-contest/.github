@@ -8,6 +8,7 @@
 # CNU Archive Web Page v1.0
 > **충남대학교 공공데이터 활용경진대회** <br/> **개발기간: 2023.04 ~ 2023.06** <br/>
 > [공모전 영상](https://youtu.be/0GT9EBZFFqo)<br/>
+> [디자인시안](https://www.figma.com/file/JCwtGTdLxnPbY2ZUh7QMOC/%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EB%AA%A8%EC%A0%84?type=design&node-id=0-1)<br/>
 > [Notion](https://fish-dash-6d4.notion.site/3a34e19c82a440f3b76c7da95a3b0d40?pvs=4)
 
 ## 배포 주소
