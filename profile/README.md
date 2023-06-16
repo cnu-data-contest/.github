@@ -95,7 +95,8 @@
 
 ## 아키텍쳐
 ### 아키텍처 상세
-![소프트웨어아키텍처](https://github.com/cnu-data-contest/.github/assets/81898507/c622b208-9fc7-48dd-a949-530c3f5a2c14)
+![아키텍처](https://github.com/cnu-data-contest/.github/assets/81898507/f02fec1c-f2a1-4597-8286-7dbfa61a8c4d)
+
 
 
 ### 디렉토리 구조
