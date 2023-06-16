@@ -58,21 +58,7 @@
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)
 <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white">
 
----
-## 화면 구성 📺
-| 로그인 페이지  |
-| :-------------------------------------------: |
-|  <img width="1000" src="https://github.com/cnu-data-contest/.github/assets/33623123/870283d2-1440-4c27-93bf-3a1aae56b0b2"/> |
-|  관심학과 선택 페이지   |
-|    <img width="1000" src="https://github.com/cnu-data-contest/.github/assets/33623123/7a834abd-02e4-41f5-b0ed-38a022c3a791"/>|
-|  메인 페이지   |
-| <img width="1000" src="https://github.com/cnu-data-contest/.github/assets/33623123/97a5961d-fd15-4a81-a984-20bef665f083"/>   |
-|  수정하기 팝업   |
-| <img width="1000" src="https://github.com/cnu-data-contest/.github/assets/33623123/7d5f91d7-1fd8-42e3-8f14-3804574234e5"/>   |
-|  게시물 리스트   |
-| <img width="1000" src="https://github.com/cnu-data-contest/.github/assets/33623123/61632778-be2e-4260-8d21-65e0b1f49cc5"/>   |
-|  상세 게시물   |
-| <img width="1000" src="https://github.com/cnu-data-contest/.github/assets/33623123/8962d399-5cea-4246-92e3-2efab6c52de9"/>   |
+
 ---
 ## 주요 기능 📦
 
@@ -94,6 +80,16 @@
 - 대외활동 리스트 중에서 원하는 활동을 클릭하면 해당 활동의 상세 내용을 확인할 수 있다.
 - 상세 게시글에는 작성자, 등록일, 관련 이미지와 글들을 대외활동 내용을 상세하게 확인 가능하다.
 ---
+
+
+## 화면 구성 📺
+| 로그인 페이지  |  관심학과 선택 페이지   |
+| :-------------------------------------------: | :-------------------------------------------: |
+|  <img width="500" src="https://github.com/cnu-data-contest/.github/assets/33623123/870283d2-1440-4c27-93bf-3a1aae56b0b2"/> |    <img width="500" src="https://github.com/cnu-data-contest/.github/assets/33623123/7a834abd-02e4-41f5-b0ed-38a022c3a791"/> |
+|  메인 페이지   |   수정하기 팝업   |
+| <img width="500" src="https://github.com/cnu-data-contest/.github/assets/33623123/97a5961d-fd15-4a81-a984-20bef665f083"/>   | <img width="500" src="https://github.com/cnu-data-contest/.github/assets/33623123/7d5f91d7-1fd8-42e3-8f14-3804574234e5"/>   |
+|  게시물 리스트   |  상세 게시물   |
+| <img width="500" src="https://github.com/cnu-data-contest/.github/assets/33623123/61632778-be2e-4260-8d21-65e0b1f49cc5"/>   |  <img width="500" src="https://github.com/cnu-data-contest/.github/assets/33623123/8962d399-5cea-4246-92e3-2efab6c52de9"/>   |
 
 ## 아키텍쳐
 ### 디렉토리 구조
